@@ -6,7 +6,7 @@ function LeftIndexComp() {
     <Flex flexDir="column" >
       <Flex flexDir="column" p={10} maxW={550}>
         <Flex p={10} alignItems="center">
-          <Image src="/tag.png" mr={5} w={58} h={30} />
+          <Image src="/tag.png" mr={5} w={58} h={30} alt="tag" />
           <Text fontWeight="bold" fontSize={22}>
             Desenvolvedor Full Stack Web & Mobile
           </Text>
