@@ -40,7 +40,7 @@ function RightIndexComp() {
           From
         </Text>
         <Text textColor="#00C39A" ml={1}>
-          './Project/Resume'
+          {'"./Project/Resume"'}
         </Text>
       </Flex>
       <Flex flexDir="row" mt={2}>
@@ -59,7 +59,7 @@ function RightIndexComp() {
           =
         </Text>
         <Text textColor="white" ml={1}>
-          "Matheus Ribeiro"
+          {'"Matheus Ribeiro"'}
         </Text>
       </Flex>
 
@@ -79,7 +79,7 @@ function RightIndexComp() {
           =
         </Text>
         <Text textColor="white" ml={1}>
-          "Desenvolvedor Full Stack | React | React Native | NextJS"
+          {'"Desenvolvedor Full Stack | React | React Native | NextJS"'}
         </Text>
       </Flex>
 
@@ -108,7 +108,7 @@ function RightIndexComp() {
           User
         </Text>
         <Text textColor="#8325FD" ml={1}>
-          {","}
+          ,
         </Text>
         <Text textColor="#00C39A" ml={1}>
           Experience
