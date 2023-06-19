@@ -25,7 +25,7 @@ function index() {
           <Flex flexDir="column" mt={5}>
             {/* https://www.linkedin.com/in/matheus-farias-ribeiro-a8a8351a3/ */}
             <Flex alignItems="center">
-              <Image src="/linkedin.png" h={31} w={31} />
+              <Image src="/linkedin.png" h={31} w={31} alt="linkedin" />
               <Link
                 href={
                   "https://www.linkedin.com/in/matheus-farias-ribeiro-a8a8351a3/"
@@ -38,7 +38,7 @@ function index() {
 
             {/* https://github.com/matheusky */}
             <Flex alignItems="center" mt={5}>
-              <Image src="/github.png" h={31} w={31} />
+              <Image src="/github.png" h={31} w={31} alt="github" />
               <Link href={"https://github.com/matheusky"} target="_blank">
                 <Text ml={1}>/Matheusky</Text>
               </Link>
