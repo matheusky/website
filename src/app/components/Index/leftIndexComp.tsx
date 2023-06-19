@@ -3,7 +3,7 @@ import { Flex, Box, Text, Image } from "@chakra-ui/react";
 
 function LeftIndexComp() {
   return (
-    <Flex flexDir="column" >
+    <Flex flexDir="column">
       <Flex flexDir="column" p={10} maxW={550}>
         <Flex p={10} alignItems="center">
           <Image src="/tag.png" mr={5} w={58} h={30} alt="tag" />
@@ -28,21 +28,34 @@ function LeftIndexComp() {
         </Flex>
       </Flex>
       <Flex ml={10} mt={5} pb={20} gap={100}>
-        <Box bgColor="#00C39A" w={100} h={100} borderRadius={10}>
-          <Text fontWeight="bold" fontSize={22} textAlign="center" mt={4}>
+        <Flex
+          bgColor="#00C39A"
+          w={100}
+          h={100}
+          borderRadius={10}
+          flexDir="column"
+          justifyContent="center"
+        >
+          <Text fontWeight="bold" fontSize={22} textAlign="center">
             3+
           </Text>
           <Text textAlign="center" fontSize={12} fontWeight="bold">
             Years Experience
           </Text>
-        </Box>
-        <Box bgColor="#FFC03C" w={100} h={100} borderRadius={10}>
+        </Flex>
+        <Flex
+          bgColor="#FFC03C"
+          w={100}
+          h={100}
+          borderRadius={10}
+          flexDir="column"
+          justifyContent="center"
+        >
           <Text
             color="black"
             fontWeight="bold"
             fontSize={22}
             textAlign="center"
-            mt={4}
           >
             15+
           </Text>
@@ -54,15 +67,22 @@ function LeftIndexComp() {
           >
             Handled Project
           </Text>
-        </Box>
-        <Box bgColor="#FE6D79" w={100} h={100} borderRadius={10}>
-          <Text fontWeight="bold" fontSize={22} textAlign="center" mt={4}>
+        </Flex>
+        <Flex
+          bgColor="#FE6D79"
+          w={100}
+          h={100}
+          borderRadius={10}
+          flexDir="column"
+          justifyContent="center"
+        >
+          <Text fontWeight="bold" fontSize={22} textAlign="center">
             2+
           </Text>
           <Text textAlign="center" fontSize={12} fontWeight="bold">
             Clients
           </Text>
-        </Box>
+        </Flex>
       </Flex>
     </Flex>
   );
