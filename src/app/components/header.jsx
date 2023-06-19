@@ -20,7 +20,7 @@ export default function Header() {
               Portfolio
             </Text>
           </Link>
-          <Link href={""}>
+          <Link href={"/sobre"}>
             <Text ml={5} color={"#fff"}>
               Sobre
             </Text>
