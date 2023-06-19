@@ -161,15 +161,17 @@ function RightIndexComp() {
             >
               {".Portfolio()"}
             </MenuItem>
-            <MenuItem
-              bgColor="#191919"
-              borderRadius={10}
-              w={100}
-              _hover={{ backgroundColor: "black" }}
-              textColor="#FFC03C"
-            >
-              {".Sobre()"}
-            </MenuItem>
+            <Link href={"/sobre"}>
+              <MenuItem
+                bgColor="#191919"
+                borderRadius={10}
+                w={100}
+                _hover={{ backgroundColor: "black" }}
+                textColor="#FFC03C"
+              >
+                {".Sobre()"}
+              </MenuItem>
+            </Link>
             <Link href={"/contato"}>
               <MenuItem
                 bgColor="#191919"
